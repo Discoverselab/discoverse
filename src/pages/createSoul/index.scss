@@ -1,0 +1,52 @@
+
+
+.create-soul__block-box {
+  box-sizing: border-box;
+  margin-top: -24px;
+  padding: 44px 14px 30px 20px;
+  width: 341px;
+  background: #262630;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+.create-soul__block-section-name {
+  font-size: 16px;
+  line-height: 16px;
+  height: 16px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+
+// 数字关系
+.create-soul__relation-box {
+  
+}
+
+.create-soul__relation-textarea-box {
+  margin-top: 32px;
+}
+.create-soul__tag-textarea-box {
+  margin-top: 12px;
+}
+// 留言区块
+.create-soul__textarea-block {
+
+}
+.create-soul__textarea-block .taro-textarea {
+  background: transparent;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+.create-soul__textarea-title {
+  font-size: 16px;
+  line-height: 16px;
+  height: 16px;
+  color: rgba(255, 255, 255, 0.85);
+}
+.create-soul__textarea {
+  margin-top: 12px;
+  height: 66px;
+  width: 100%;
+}
+

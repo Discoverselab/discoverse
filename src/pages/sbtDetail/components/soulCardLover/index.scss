@@ -1,0 +1,178 @@
+.soul-card-lover__wrapper {
+  overflow: hidden;
+  min-height: 100vh;
+  padding-bottom: 166px;
+  background: #000000;
+}
+.soul-card-lover__block {
+  margin: 50px auto 0;
+  width: 600px;
+  height: 1288px;
+  position: relative;
+  // height: 1038px;
+  // border-radius: 12px;
+}
+.soul-card-lover__bg-color {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 600px;
+  height: 100%;
+  background-color: #f5f5f5;
+  // background: linear-gradient(177.78deg, rgba(236, 34, 131, 0) 4.9%, rgba(228, 87, 56, 0.26) 49.5%, #DD4E68 84.71%);
+}
+.soul-card-lover__bg {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 600px;
+}
+.soul-card-lover__main {
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+  padding-bottom: 52px;
+}
+.soul-card-lover__top-text-1-box {
+  margin: 87.5px auto 0;
+  width: 539px;
+}
+.soul-card-lover__top-text-1 {
+  width: 539px;
+}
+.soul-card-lover__top-text-2-box {
+  margin: 20px auto 0;
+  width: 492px;
+}
+.soul-card-lover__top-text-2 {
+  width: 492px;
+}
+.soul-card-lover__icon-box {
+  margin-top: 61px;
+  height: 209px;
+  text-align: center;
+}
+.soul-card-lover__icon {
+  overflow: hidden;
+  width: 209px;
+  height: 209px;
+  border-radius: 104.5px;
+  // filter: drop-shadow(0px 2Px 20Px rgba(255, 255, 255, 0.6));
+  filter: drop-shadow(0px 10px 20px rgba(255, 255, 255, 0.3));
+}
+.soul-card-lover__time {
+  margin-top: 83px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.45);
+}
+.soul-card-lover__user-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 48px;
+  height: 52px;
+}
+.soul-card-lover__user-item-box {
+  display: flex;
+  flex-direction: row;
+}
+.soul-card-lover__user-item-avatar {
+  margin-right: 4px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+.soul-card-lover__user-item-user-name {
+  flex: 1;
+  font-weight: 600;
+  font-size: 30;
+  line-height: 52px;
+  color: #FFFFFF;
+}
+.soul-card-lover__user-middle-icon {
+  margin: 0 6px;
+  align-self: center;
+  width: 42px;
+}
+.soul-card-lover__message-1-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  margin: 34px auto 0;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 88px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.soul-card-lover__message-1-number {
+  margin: 0 2px;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 96px;
+  color: #FFFFFF;
+}
+.soul-card-lover__message-2-box {
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.soul-card-lover__address-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;;
+  margin-top: 48px;
+}
+.soul-card-lover__address-header-image {
+  display: block;
+  width: 474px;
+  height: 25px;
+}
+.soul-card-lover__address {
+  margin-top: 12px;
+  width: 472px;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  word-break: break-all;
+}
+.soul-card-lover__qrcode-box {
+  margin: 60px auto 0;
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+.soul-card-lover__qrcode-icon {
+  width: 120px;
+  height: 120px;
+}
+.soul-card-lover__qrcode-user-avatar {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -24px 0 0 -24px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.soul-card-lover__slogan {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 164%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+

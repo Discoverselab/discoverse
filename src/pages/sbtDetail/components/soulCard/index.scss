@@ -1,0 +1,203 @@
+.soul-card-page__wrapper {
+  overflow: hidden;
+  min-height: 100vh;
+  padding-bottom: 83px;
+  background: #000000;
+}
+.soul-card-page__block-box {
+  // margin-top: 150px;
+}
+.soul-card__block {
+  position: relative;
+  margin: 0 auto;
+  width: 300px;
+  // height: 1038px;
+  border-radius: 6px;
+}
+.soul-card__block--relation {
+  background: linear-gradient(160.25deg, #BA41D8 5.09%, #5A08F9 50.54%, #DD4E7C 86.42%);
+  height: 519px;
+}
+.soul-card__block--tag {
+  background: linear-gradient(160.25deg, #4174D8 5.09%, #0D08F9 50.54%, #4E7FDD 86.42%);
+  height: 455px;
+}
+.soul-card__block--certification {
+  background: linear-gradient(165.53deg, #FACB53 5.49%, #DB5332 64.29%, #F9B54F 110.71%);
+  height: 455px;
+}
+
+.soul-card__bg {
+
+}
+.soul-card__main {
+  overflow: hidden;
+}
+.soul-card__icon-box {
+  margin-top: 35px;
+  height: 150px;
+  text-align: center;
+}
+.soul-card__icon {
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  // filter: drop-shadow(0px 2Px 20Px rgba(255, 255, 255, 0.6));
+}
+.soul-card__title {
+  margin-top: 5px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 45px;
+  color: #FFFFFF;
+}
+.soul-card__relation-message {
+  margin-top: 11px;
+  padding: 0 24px;
+  font-size: 16px;
+  line-height: 150%;
+  min-height: 24px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.65);
+
+}
+.soul-card__description {
+  margin-top: 10.5px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.soul-card__creator-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 19x;
+  height: 16px;
+}
+.soul-card__creator-avatar {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+.soul-card__creator-username {
+  margin-left: 4px;
+  font-size: 12px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.85);
+}
+.soul-card__create-time {
+  margin-top: 7px;
+  font-size: 10px;
+  line-height: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.65);
+}
+.soul-card__address-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;;
+  margin-top: 35px;
+}
+.soul-card__address-header-image {
+  display: block;
+  width: 237px;
+  height: 12.5px;
+}
+.soul-card__address {
+  margin-top: 6px;
+  width: 236px;
+  font-size: 9px;
+  line-height: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  word-break: break-all;
+}
+.soul-card__bottom-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 0 24px;
+}
+.soul-card__qrcode-box {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+.soul-card__qrcode-icon {
+  width: 60px;
+  height: 60px;
+}
+.soul-card__qrcode-user-avatar {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -12px 0 0 -12px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.soul-card__brand-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.soul-card__brand-icon {
+  width: 55px;
+  height: 48px;
+}
+.soul-card__brand-slogan {
+  margin-top: 3px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.soul-card__main {
+
+  .soul-card__qrcode-box {
+    position: relative;
+    z-index: 10;
+    margin-top: 23px;
+    // display: flex;
+    // flex-direction: column;
+      /* justify-content: center; */
+      /* align-items: center; */
+    width: 100%;
+    height: initial;
+  }
+  .soul-card__qrcode-image-box {
+    margin: 0 auto;
+    width: 56px;
+    height: 56px;
+  }
+  .soul-card__qrcode-image {
+    width: 56px;
+    height: 56px;
+  }
+  .soul-card__qrcode-msg {
+    margin-top: 6px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    height: 13px;
+    color: #FFFFFF;
+  }
+}
+.soul-card__logo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+}

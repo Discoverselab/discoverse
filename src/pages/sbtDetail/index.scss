@@ -1,0 +1,373 @@
+.soul-detail__wrapper {
+  overflow: hidden;
+  min-height: 100vh;
+  padding-bottom: 83px;
+  background: linear-gradient(0deg, #000000, #000000), #FFFFFF;
+}
+
+// 头部卡片
+.soul-detail__card-box {
+  position: relative;
+  margin: 108px auto 0;
+  width: 301px;
+  border-radius: 20px;
+}
+.soul-detail__card-box--relation {
+  height: 392px;
+  background: linear-gradient(160.25deg, #BA41D8 5.09%, #5A08F9 50.54%, #DD4E7C 86.42%);
+}
+.soul-detail__card-box--tag {
+  height: 363px;
+  background: linear-gradient(162.64deg, #4174D8 14.45%, #0D08F9 55.41%, #4E7FDD 87.76%);
+}
+.soul-detail__card-box--certification {
+  height: 363px;
+  background: linear-gradient(165.53deg, #FACB53 5.49%, #DB5332 64.29%, #F9B54F 110.71%);
+}
+.soul-detail__card-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 301px;
+  height: 392px;
+}
+.soul-detail__card-main {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.soul-detail__card-icon-box {
+  margin-top: 35px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  // -webkit-filter: drop-shadow(0px 4px 40px rgba(255, 255, 255, 0.6));
+  // filter: drop-shadow(0px 4px 40px rgba(255, 255, 255, 0.6));
+}
+.soul-detail__card-icon {
+  // margin-top: 70px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.soul-detail__card-title {
+  margin-top: 16px;
+  height: 45px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+}
+.soul-detail__card-message {
+  margin-top: 21px;
+  padding: 0 24px;
+  line-height: 24px;
+  font-size: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.soul-detail__card-description {
+  margin-top: 10.5px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+// 灵魂详情
+.soul-detail__detail-block {
+  overflow: hidden;
+  position: relative;
+  z-index: 2;;
+  margin: -41px auto 0;
+  width: 341px;
+  background: #1C1C1E;
+  border-radius: 12px;
+}
+.soul-detail__detail-header-box {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 28px 0 20px;
+  margin: 0 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.soul-detail__detail-header-avatar {
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+}
+.soul-detail__detail-header-content {
+  flex: 1;
+  margin-left: 6px;
+  margin-top: 7px;
+}
+.soul-detail__detail-header-username {
+  font-size: 14px;
+  line-height: 14px;
+  height: 14px;
+  color: #fff;
+}
+.soul-detail__detail-header-time {
+  margin-top: 4px;
+  height: 10px;
+  color: #C0C4CC;
+  font-size: 10px;
+  line-height: 10px;
+}
+.soul-detail__detail-header-button-box {
+  display: flex;
+  align-items: center;
+  width: 93px;
+  height: 36px;
+  border: 18px;
+  border-radius: 200px;
+  background: #052DFF;
+  box-shadow: 0px 5px 4Px -4Px rgba(10, 124, 255, 0.1);
+  font-size: 12px;
+  color: #fff;
+  line-height: 36px;
+  font-weight: bold;
+}
+.soul-detail__detail-header-button-icon-box {
+  display: flex;
+  margin-left: 5px;
+  margin-right: 3px;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+.soul-detail__detail-header-button-icon {
+  width: 15px;
+  height: 15px;
+  display: flex;
+  // height: 48px;
+}
+.soul-detail__detail-body {
+  margin: 20px 16px;
+
+}
+.soul-detail__detail-message-box {
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.soul-detail__detail-message-icon-box {
+  // width: 32px;
+}
+.soul-detail__detail-message-icon {
+  width: 12px;
+  height: 12px;
+}
+.soul-detail__detail-message-pre {
+  flex-shrink: 0;
+  margin-left: 4px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.85);
+}
+.soul-detail__detail-message-content-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 16px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 12px;
+  font-weight: bold;
+}
+.soul-detail__detail-message-content-number {
+  margin-right: 6px;
+  height: 20px;
+  color: #FABA14;
+  font-size: 20px;
+  line-height: 20px;
+}
+.soul-detail__detail-message-content-address {
+  white-space: wrap;
+  word-break: break-all;
+  font-size: 10px;
+  line-height: 13px;
+  font-weight: normal;
+}
+
+// 领取记录
+.soul-receive__wrap {
+  position: relative;
+  margin: 17px auto 0;
+  width: 335px;
+}
+.soul-receive__header {
+  width: 335px;
+  height: 101px;
+  border-radius: 12px;
+}
+.soul-receive__header-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 335px;
+  height: 101px;
+}
+.soul-receive__header-main {
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  width: 335px;
+  height: 101px;
+}
+.soul-receive__header-title {
+  margin-top: 22px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  color: #fff;
+}
+.soul-receive__header-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 16px;
+  padding: 0 25px 0 20px;
+
+}
+.soul-receive__header-content-pre {
+  flex: 1;
+  font-size: 16px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.9);
+}
+.soul-receive__header-content-number {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  color: #fff;
+}
+.soul-receive__list-box {
+  margin-top: -27px;
+  padding-top: 30px;
+  padding-bottom: 140px;
+  background: #1C1C1E;
+  border-radius: 12px;
+}
+.soul-receive__list-item-box {
+  position: relative;
+  height: 56.5px;
+}
+.soul-receive__list-item-under-line {
+  position: absolute;
+  bottom: 0;
+  left: 56px;
+  width: 265px;
+  height: 1Px;
+  transform-origin: 0 100%;
+  transform: rotate(0.5);
+  background: rgba(255, 255, 255, 0.1);
+}
+.soul-receive__list-item {
+  display: flex;
+  padding: 0 15px;
+  flex-direction: row;
+  height: 56px;
+  align-items: center;
+}
+.soul-receive__list-item-rank {
+  font-family: 'DIN-BlackItalic';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.5);
+}
+.soul-receive__list-item-avatar {
+  margin-left: 17px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.soul-receive__list-item-username {
+  flex: 1;
+  margin-left: 13px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 100%;
+  color: #fff;
+}
+.soul-receive__list-item-time {
+  font-size: 14px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.soul-receive__empty-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;;
+}
+.soul-receive__empty-icon {
+  margin-top: 45px;
+  width: 112px;
+  height: 112px;
+}
+.soul-receive__empty-text {
+  margin-top: 15px;
+  font-size: 22px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.4);
+}
+.soul-receive__empty-button-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+  width: 305px;
+  height: 47px;
+  color: #fff;
+  border-radius: 7.5px;;
+  background: #052DFF;
+}
+.soul-receive__empty-button-icon {
+  margin-right: 14.5px;
+  width: 19px;
+}
+.soul-detail__bottom-box {
+  width: 100vw;
+  height: 69px;
+  display: flex;
+  margin-top: 11px;
+  margin-bottom: -83px;
+  align-items: center;
+  justify-content: center;
+  background: #1C1C1E;
+}
+.soul-detail__button-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 305px;
+  height: 47px;
+  background: #052DFF;
+  border-radius: 12px;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fff;
+}
+.soul-detail__button-icon {
+  margin-right: 14px;
+  width: 20px;
+  height: 20px;
+}

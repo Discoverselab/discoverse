@@ -1,0 +1,98 @@
+.soul-select__wrap {
+  // background: rgba(0,0,0,0.6);
+  box-sizing: border-box;
+  background: linear-gradient(190.9deg, rgba(36, 0, 57, 0.9) 1.14%, rgba(24, 0, 37, 0.729) 26.06%, rgba(4, 0, 11, 0.81) 60.01%, rgba(36, 0, 57, 0.9) 99.57%);
+  backdrop-filter: blur(6px);
+  // padding-bottom: calc(#{$INITIATE_SELECT_PADDING_BUTTON}px + env(safe-area-inset-bottom));
+  padding-bottom: calc(env(safe-area-inset-bottom));
+  width: 100vw;
+  height: 100vh;
+
+  position: fixed;
+  top: 100vh;
+  left: 0;
+  z-index: 501;
+
+  display: flex;
+  align-items: flex-end;
+
+  transition: all 0.3s;
+
+  &.show {
+    top: 0;
+  }
+}
+.soul-select__body {
+  width: 100vw;
+}
+.soul-select__item {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto 0;
+  padding: 16px;
+  width: 343px;
+  box-shadow: 0px 12px 24px rgba(48, 49, 51, 0.24);
+  border-radius: 12px;
+}
+.soul-select__item-relation {
+  background: linear-gradient(0deg, #780BF7, #780BF7), #FFFFFF;
+}
+.soul-select__item-tag {
+  background: linear-gradient(0deg, #0000FE, #0000FE), #FFFFFF;
+}
+.soul-select__item-certification {
+  background: #EAB020;
+}
+.soul-select__item-activity {
+  background: linear-gradient(0deg, #00D189, #00D189), #FFFFFF;
+}
+.soul-select__item-icon-box {
+  width: 47px;
+  height: 41px;
+}
+.soul-select__item-icon {
+  width: 47px;
+  height: 41px;
+}
+.soul-select__item-content {
+  flex: 1;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.soul-select__item-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  height: 16px;
+  color: #FFFFFF;
+}
+.soul-select__item-msg {
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 12px;
+  height: 12px;
+  color: rgba(255, 255, 255, 0.85);
+}
+.soul-select__item-more-icon {
+  align-self: center;
+  margin-right: 34px;
+  margin-left: 12px;
+  width: 6px;
+  height: 12px;
+}
+.soul-select__close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px auto 26px;
+  width: 56px;
+  height: 56px;
+  height: CommonImg;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+}
+.soul-select__close-btn-icon {
+  width: 9px;
+  height: 9px;
+}

@@ -1,0 +1,112 @@
+.soul-share-modal__wrapper {
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-top: 45px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99999;
+}
+.soul-share-modal__mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+}
+.soul-share-modal__main {
+  box-sizing: border-box;
+  overflow: hidden scroll;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-bottom: 159px;
+  width: 100vw;
+  min-height: 100vh;
+}
+.soul-share-modal__canvas-box {
+  position: absolute;
+  // left: 200vw;
+  overflow-y: scroll;
+  z-index: 2;
+  margin: 0 auto 0;
+  padding-top: 98px;
+  width: 100vw;
+  height: calc(100vh - 166.52px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.soul-share-modal__share-card-canvas-box {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  left: 200vw;
+  top: 0;
+  margin: 49px auto 0;
+  width: 150Px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.soul-share-modal__image-box {
+  overflow-y: scroll;
+  position: relative;
+  z-index: 99;
+  width: 100vw;
+  height: calc(100vh - 220px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.soul-share-modal__image-box-cancel-icon {
+  margin-top:5px;
+}
+.soul-share-modal__image {
+  margin-top: 30px;
+  height: 80%;
+}
+.soul-share-modal__bottom-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 159px;
+  background: rgba(28, 30, 31, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 14px 14px 0px 0px;
+}
+.soul-share-modal__bottom-button-box {
+  display: flex;
+  margin: 0;
+  width: 60px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: transparent;
+}
+.soul-share-modal__bottom-button-download-box {
+  margin-left: 48px;
+}
+.soul-share-modal__bottom-button-icon {
+  width: 52px;
+  height: 52px;
+}
+.soul-share-modal__bottom-button-text {
+  margin-top: 9px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.65);
+}

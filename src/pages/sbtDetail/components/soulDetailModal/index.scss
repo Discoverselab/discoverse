@@ -1,0 +1,124 @@
+.soul-detail-modal__wrapper {
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-top: 45px;
+  width: 100vw;
+  min-height: 100vh;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.soul-detail-modal__mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+}
+.soul-detail-modal__close-mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.soul-detail-modal__main {
+  box-sizing: border-box;
+  overflow: hidden;
+  z-index: 2;
+  position: relative;
+  // left: 0;
+  // top: 0;
+  // padding-bottom: 102px;
+  width: 100vw;
+  min-height: 100vh;
+  // transform: scale(0.95);
+  transform-origin: center center;
+}
+.soul-detail-modal__soul-card-block {
+  // margin-top: 150px;
+  // transform: scale(0.7);
+}
+.soul-detail-modal__button-box {
+  z-index: 2;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 25px auto 0;
+  width: 305px;
+  height: 47px;
+  background: #052DFF;
+  border-radius: 12px;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fff;
+}
+.soul-detail-modal__button-icon {
+  margin-right: 14px;
+  width: 20px;
+  height: 20px;
+}
+.soul-detail-modal__button-text {
+
+}
+.soul-detail-modal__close-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 0;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+}
+.soul-detail-modal__close-button-icon {
+  width: 12px;
+  height: 12px;
+}
+.soul-share-modal__bottom-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 130px;
+  background: rgba(28, 30, 31, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 14px 14px 0px 0px;
+}
+.soul-share-modal__bottom-button-box {
+  display: flex;
+  margin: 0;
+  width: 60px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: transparent;
+}
+.soul-share-modal__bottom-button-download-box {
+  margin-left: 48px;
+}
+.soul-share-modal__bottom-button-icon {
+  width: 52px;
+  height: 52px;
+}
+.soul-share-modal__bottom-button-text {
+  margin-top: 9px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.65);
+  white-space: nowrap;
+}

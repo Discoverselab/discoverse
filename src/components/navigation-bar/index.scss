@@ -1,0 +1,17 @@
+.navigation-bar__wrapper {
+  display: flex;
+  width: 100vw;
+  height: 44px;
+}
+.navigation-bar__icon-box {
+  margin-left: 16px;
+  display: flex;
+  width: 24px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;;
+}
+.navigation-bar__icon {
+  width: 24px;
+  height: 24px;
+}

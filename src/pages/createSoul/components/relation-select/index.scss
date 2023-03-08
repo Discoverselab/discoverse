@@ -1,0 +1,50 @@
+.create-soul__relation-select-list {
+  margin-top: 11px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.create-soul__relation-select-item {
+  margin-top: 21px;
+  margin-right: 16px;
+  width: 60px;
+}
+.create-soul__relation-select-item--no-margin-right {
+  margin-right: 0;
+}
+.create-soul__relation-select-icon-box {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  filter: drop-shadow(0px 4Px 10Px rgba(255, 135, 58, 0.2));
+}
+.create-soul__relation-select-icon {
+  display: block;
+  width: 60px;
+  height: 60px;
+  // border-radius: 50%;
+}
+.create-soul__relation-select-active {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 60px;
+  height: 60px;
+  // border-radius: 50%;
+  border: none;
+}
+// .create-soul__relation-select-item--active .create-soul__relation-select-icon{
+//   border: 6px solid #052DFF;
+//   filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.25));
+//   backdrop-filter: blur(10px);
+// }
+.create-soul__relation-select-name {
+  margin-top: 14px;
+  font-size: 12px;
+  line-height: 12px;
+  height: 12px;
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+}
